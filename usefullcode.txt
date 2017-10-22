@@ -1,4 +1,14 @@
-gitbash添加编辑器代码范例：
+#gitbash添加编辑器代码范例：
 echo 'alias subl="C:/Program\ Files/Sublime\ Text\ 2/sublime_text.exe"' >> ~/.bashrc
 # 因为转义 所以 文件位置要用 /    \用于转义 比如  Program\ Files 中间。
 #C:/Program\ Files\ \(x86\)/ 64位系统要这样转义。
+
+#git add 的各种区别
+git add -A #添加所有改动
+git add * #添加新建文件和修改，但是不包括删除
+git add -u #添加修改和删除，但不包括新建文件
+git add . #添加新建文件和删除，但不包括新建文件夹
+
+#在commit前撤销add:
+git reset <file> #撤销提交单独文件
+git reset  #ustage all due changes
