@@ -1,0 +1,4 @@
+gitbash添加编辑器代码范例：
+echo 'alias subl="C:/Program\ Files/Sublime\ Text\ 2/sublime_text.exe"' >> ~/.bashrc
+# 因为转义 所以 文件位置要用 /    \用于转义 比如  Program\ Files 中间。
+#C:/Program\ Files\ \(x86\)/ 64位系统要这样转义。
