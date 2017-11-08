@@ -28,3 +28,5 @@ rm -rf <directory name> 删除非空文件夹
 
 
 git add C:/Users/shalom/learngit/gitskills/.  add 文件夹
+
+git pull  远程代码pull到本地，保持本地仓库跟远端仓库同步。本地删除文件，push后，远程库也删除了。
