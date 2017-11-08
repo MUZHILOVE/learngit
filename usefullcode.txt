@@ -12,3 +12,10 @@ git add . #添加新建文件和删除，但不包括新建文件夹
 #在commit前撤销add:
 git reset <file> #撤销提交单独文件
 git reset  #ustage all due changes
+
+git branch 查看分支
+git branch <name> 创建分支
+git checkout <name> 切换分支
+git checkout -b <name> 创建+切换分支
+git merge <name> 合并某分支到当前分支
+git branch -d <name> 删除分支
